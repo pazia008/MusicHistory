@@ -28,10 +28,14 @@ SELECT Title
 FROM Album
 	WHERE AlbumLength IS NULL;
 
+
+
 INSERT INTO Artist (ArtistName, YearEstablished) VALUES ('Lawrence', 2013);
  
---task 8
 INSERT INTO Album (Title, ReleaseDate, AlbumLength, Label, ArtistId, GenreId) VALUES ('Living Room', '9/14/2018', 2289, 'R&B/Soul', 28, 6);
+
+--task 9
+INSERT INTO Song (Title, SongLength, ReleaseDate, GenreId, ArtistId, AlbumId) VALUES ('Make A Move', 69, '9/06/2018', 7, 28, 23);
 
 
 
